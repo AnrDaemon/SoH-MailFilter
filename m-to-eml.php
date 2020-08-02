@@ -1,4 +1,4 @@
-#!/usr/bin/php -f
+#!/usr/bin/env php
 <?php
 
 require_once dirname(__FILE__).'/HazeronMail.php';

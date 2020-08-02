@@ -1,4 +1,4 @@
-#!/usr/bin/php -f
+#!/usr/bin/env php
 <?php
 /**
 * $Id: mbox-feeder.php 384 2015-11-23 13:34:55Z anrdaemon $
@@ -73,6 +73,7 @@ else
 Usage:
   mbox-feeder [-m] [-o FILENAME] [--] [DIRECTORY]
   mbox-feeder [-m] [-s] [--] [DIRECTORY]
+  (unimplemented) mbox-feeder [-m] [-s -o FILENAME] [--] [DIRECTORY]
 
 By default, the DIRECTORY is the current working directory, the output goes
 to STDOUT and no deletion is performed.
